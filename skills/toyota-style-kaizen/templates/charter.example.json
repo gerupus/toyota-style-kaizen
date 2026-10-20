@@ -1,0 +1,15 @@
+{
+  "schema": "kaizen-charter/v1",
+  "ceo": "human user",
+  "mission": "Deliver verified value while respecting quality, security and the CEO's constraints",
+  "max_active_tasks": 2,
+  "policy": {
+    "default": "read_and_local_record_only",
+    "external_write": "ceo_approval_required",
+    "publish": "ceo_approval_required",
+    "deletion": "ceo_approval_required",
+    "spend": "ceo_approval_required",
+    "secrets": "do_not_record"
+  },
+  "caution": "Example only. Actual permissions are enforced by the agent host, not this file."
+}
